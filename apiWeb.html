@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Api Web</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script type="text/javascript" src='mapa.js'></script>
+	<script type="text/javascript">
+		var array1=['gato'];
+		var array2=array1.slice();
+		array2+='Camelon';
+		console.log('1: '+array1);
+		console.log('2: '+array2);
+	</script>
+</head>
+<body>
+	<div id='caja'>
+		<canvas id='lienzo' width="1300" height="620"></canvas>
+	</div>
+	<audio id='press_cubo'>
+		<source src="press_cubo.wav" type="audio/wav">
+	</audio>
+	<audio id='press_carta'>
+		<source src="press_carta.wav" type="audio/wav">
+	</audio>
+	<audio id='carta_devolver'>
+		<source src="carta_devolver.wav" type="audio/wav">
+	</audio>	
+	<audio id="music_fondo" controls="">
+		<source src="music_fondo.mp3" type="audio/mp3">
+	</audio>
+</body>
+</html>
